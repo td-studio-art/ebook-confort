@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zone de Confort — Brise les Murs · 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="progress-bar" id="progressBar"></div>
+
+<nav>
+  <span class="nav-logo">Zone de Confort · 2026</span>
+  <ul class="nav-links">
+    <li><a href="#toc">Sommaire</a></li>
+    <li><a href="#ch1">Mindset</a></li>
+    <li><a href="#ch2">Corps</a></li>
+    <li><a href="#ch3">Routine</a></li>
+    <li><a href="#ch5">Plan</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════ COVER ══════════════ -->
+<section class="cover" id="top">
+  <div class="cover-bg"></div>
+  <div class="cover-noise"></div>
+  <div class="cover-left">
+    <span class="cover-tag">Ebook · Édition 2026</span>
+    <h1 class="cover-title">
+      Brise<br>
+      <span class="line-fire">tes</span><br>
+      <span class="line-accent">Murs</span>
+    </h1>
+    <p class="cover-subtitle">Comment sortir de sa zone de confort depuis chez soi en 2026 — Mindset, Corps & Action. Pour les 13 ans et au-delà.</p>
+    <div class="cover-meta">
+      <div class="meta-item">
+        <span class="meta-label">Chapitres</span>
+        <span class="meta-value">7</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Public</span>
+        <span class="meta-value">13 — 30+</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Thème</span>
+        <span class="meta-value">Mindset & Corps</span>
+      </div>
+    </div>
+    <div class="cover-cta">
+      <a href="#toc" class="btn-primary">
+        Commencer à lire
+        <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </div>
+  <div class="cover-right">
+    <div class="cover-visual">
+      <div class="circle-outer">
+        <div class="orbit-dot"></div>
+        <div class="orbit-dot"></div>
+        <div class="orbit-dot"></div>
+      </div>
+      <div class="circle-middle"></div>
+      <div class="circle-inner">
+        <span class="circle-text">ZC</span>
+        <span class="circle-sub">Zone<br>Cassée</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ INTRO ══════════════ -->
+<section class="chapter" id="intro">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">00</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--sky)">Introduction</div>
+        <h2 class="chapter-h2">Pourquoi ce guide<br>existe en 2026 ?</h2>
+        <p class="chapter-intro">Le monde a changé. Les opportunités sont dans ta chambre. Mais rester dans le confort est plus tentant que jamais.</p>
+      </div>
+    </div>
+    <div class="content-body reveal">
+      <div class="body-text">
+        <p>En 2026, tu peux apprendre n'importe quelle compétence depuis ton canapé, lancer un business depuis ton lit, te connecter à des millions de personnes sans bouger de chez toi. C'est extraordinaire — et c'est aussi un piège.</p>
+        <p>Parce que le confort extrême tue la croissance. Quand <strong>tout est accessible</strong>, le cerveau trouve une raison de repousser à demain. Le scroll infini, les séries interminables, la procrastination digitale : ce sont les nouvelles chaînes.</p>
+        <p>Ce guide n'est pas un discours de motivation vide. C'est un <strong>kit opérationnel</strong> : comprendre ta psychologie, réveiller ton corps, et créer des habitudes qui te poussent vers l'avant — chaque jour, depuis chez toi.</p>
+      </div>
+      <div>
+        <div class="quote-block">
+          <p class="quote-text">« Le confort, c'est la prison la plus confortable du monde. »</p>
+          <p class="quote-source">— Mindset collectif, Gen Z & Millennials</p>
+        </div>
+        <div class="stats-row" style="grid-template-columns:1fr 1fr; margin: 0; gap: 2px;">
+          <div class="stat-item">
+            <div class="stat-num">68<span class="stat-unit">%</span></div>
+            <div class="stat-label">des jeunes se sentent bloqués par la peur du jugement</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3<span class="stat-unit">×</span></div>
+            <div class="stat-label">plus de chances de réussir avec une routine physique</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ SOMMAIRE ══════════════ -->
+<div class="divider"></div>
+<section class="toc" id="toc">
+  <p class="section-tag reveal">Au programme</p>
+  <h2 class="section-title reveal">Les 7 chapitres<br>du changement</h2>
+  <div class="toc-grid reveal">
+    <a class="toc-item" href="#ch1">
+      <span class="toc-num">01</span>
+      <span class="toc-name">Comprendre ta zone de confort</span>
+      <span class="toc-cat cat-mind">Mindset</span>
+    </a>
+    <a class="toc-item" href="#ch2">
+      <span class="toc-num">02</span>
+      <span class="toc-name">Le cerveau sous pression (et pourquoi c'est bon)</span>
+      <span class="toc-cat cat-mind">Mindset</span>
+    </a>
+    <a class="toc-item" href="#ch3">
+      <span class="toc-num">03</span>
+      <span class="toc-name">Réveille ton corps depuis chez toi</span>
+      <span class="toc-cat cat-body">Corps</span>
+    </a>
+    <a class="toc-item" href="#ch4">
+      <span class="toc-num">04</span>
+      <span class="toc-name">La routine anti-confort du matin</span>
+      <span class="toc-cat cat-body">Corps</span>
+    </a>
+    <a class="toc-item" href="#ch5">
+      <span class="toc-num">05</span>
+      <span class="toc-name">Dépasser la peur sociale sans sortir</span>
+      <span class="toc-cat cat-mind">Mindset</span>
+    </a>
+    <a class="toc-item" href="#ch6">
+      <span class="toc-num">06</span>
+      <span class="toc-name">Créer des défis progressifs chez soi</span>
+      <span class="toc-cat cat-action">Action</span>
+    </a>
+    <a class="toc-item" href="#ch7" style="grid-column: span 2;">
+      <span class="toc-num">07</span>
+      <span class="toc-name">Le plan sur 30 jours — De zéro à en mouvement</span>
+      <span class="toc-cat cat-action">Action</span>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════════ CH 1 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter fire-tint" id="ch1">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">01</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--purple)">Mindset</div>
+        <h2 class="chapter-h2">Comprendre ta<br>zone de confort</h2>
+        <p class="chapter-intro">Avant de la briser, il faut la cartographier. Ta zone de confort est personnelle, évolutive — et pas ton ennemie.</p>
+      </div>
+    </div>
+
+    <div class="content-body reveal">
+      <div class="body-text">
+        <p>La zone de confort, c'est l'espace mental et physique où tu te sens <strong>en sécurité, prévisible, sans effort particulier</strong>. Ni bonne, ni mauvaise en soi — c'est une boussole.</p>
+        <p>Le problème, c'est quand elle devient une <strong>cage par défaut</strong>. Quand tu restes dedans non pas parce que tu l'as choisie, mais parce que tu as peur de ce qui est dehors.</p>
+        <p>En 2026, la zone de confort s'est digitalisée : le vrai confort toxique, c'est le scroll automatique, les vidéos infinies, le fait de jamais rien créer — juste consommer. <strong>Tu es fait pour créer, pas que consommer.</strong></p>
+      </div>
+      <div>
+        <div class="card lime">
+          <div class="card-icon">🧠</div>
+          <div class="card-title">Les 3 zones à connaître</div>
+          <div class="card-text">
+            <p style="margin-bottom:10px"><strong style="color:var(--lime)">Zone de confort</strong> — Familier, sûr, automatique</p>
+            <p style="margin-bottom:10px"><strong style="color:var(--fire)">Zone d'apprentissage</strong> — Légère peur, nouveau, stimulant (c'est ici qu'on grandit)</p>
+            <p><strong style="color:#ef4444">Zone de panique</strong> — Trop intense, paralysant — à éviter</p>
+          </div>
+        </div>
+        <div class="highlight" style="margin-top:16px">
+          <strong>Objectif :</strong> passer le maximum de temps dans la <strong>zone d'apprentissage</strong>. Pas besoin de sauter en parachute — juste un petit inconfort quotidien suffit.
+        </div>
+      </div>
+    </div>
+
+    <div class="challenge-box reveal" style="margin-top:48px">
+      <div class="challenge-header">
+        <span class="challenge-badge">Défi Ch.01</span>
+        <span class="challenge-title">Cartographie ta zone de confort</span>
+      </div>
+      <ul class="challenge-list">
+        <li>Écris 5 choses que tu fais en mode automatique (scroll, Netflix, éviter de parler en public...)</li>
+        <li>Pour chacune, demande-toi : "Est-ce que j'ai choisi ça, ou c'est par peur ?"</li>
+        <li>Identifie 1 chose que tu veux faire mais que tu repousses depuis plus de 30 jours</li>
+        <li>C'est là que se trouve ta porte de sortie</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CH 2 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter alt" id="ch2">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">02</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--purple)">Mindset</div>
+        <h2 class="chapter-h2">Le cerveau sous pression<br>(et pourquoi c'est bon)</h2>
+        <p class="chapter-intro">La peur que tu ressens quand tu sors de ta zone ? C'est ton cerveau qui grandit. Voilà la science derrière.</p>
+      </div>
+    </div>
+
+    <div class="stats-row reveal">
+      <div class="stat-item">
+        <div class="stat-num">21<span class="stat-unit">j</span></div>
+        <div class="stat-label">pour créer une nouvelle habitude neurale</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">90<span class="stat-unit">s</span></div>
+        <div class="stat-label">durée d'une émotion de peur si tu ne la nourris pas</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2×</div>
+        <div class="stat-label">l'effort physique double la capacité cognitive</div>
+      </div>
+    </div>
+
+    <div class="content-body reveal">
+      <div class="body-text">
+        <p>Quand tu fais quelque chose d'inconfortable, ton <strong>amygdale</strong> (le centre de la peur dans ton cerveau) s'active. C'est normal. C'est évolutif. Mais il y a une chose que beaucoup ne savent pas :</p>
+        <p>Cette peur dure en moyenne <strong>90 secondes</strong> si tu ne l'alimentes pas avec tes pensées. Après ? Elle se dissout. Le reste, c'est toi qui la fais durer en boucle.</p>
+        <p>La neuroplasticité — la capacité du cerveau à se recâbler — est maximale quand tu vis des <strong>micro-inconforts répétés</strong>. Pas des chocs, des petits défis quotidiens. Comme un muscle.</p>
+      </div>
+      <div>
+        <div class="step-list">
+          <div class="step-item">
+            <div class="step-n">1</div>
+            <div>
+              <div class="step-content-title">Nommer la peur</div>
+              <div class="step-content-text">Dire "j'ai peur de..." active le cortex préfrontal et réduit l'intensité de l'amygdale</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">2</div>
+            <div>
+              <div class="step-content-title">Respirer (4-7-8)</div>
+              <div class="step-content-text">4 secondes inspirer, 7 tenir, 8 expirer. Coupe le mode panique en 2 minutes</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">3</div>
+            <div>
+              <div class="step-content-title">Agir avant de penser</div>
+              <div class="step-content-text">Le cerveau valide ce qu'on fait. Lance le mouvement, la motivation suit</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">4</div>
+            <div>
+              <div class="step-content-title">Célébrer le petit pas</div>
+              <div class="step-content-text">La dopamine renforce le comportement. Chaque micro-victoire compte</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-block reveal" style="margin-top:48px">
+      <p class="quote-text">« Le courage n'est pas l'absence de peur. C'est décider que quelque chose d'autre est plus important que la peur. »</p>
+      <p class="quote-source">— Ambrose Redmoon</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CH 3 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter lime-tint" id="ch3">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">03</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--fire)">Corps</div>
+        <h2 class="chapter-h2">Réveille ton corps<br>depuis chez toi</h2>
+        <p class="chapter-intro">Le corps et le cerveau sont connectés. Bouger, c'est la première sortie de zone de confort que tu peux faire maintenant.</p>
+      </div>
+    </div>
+
+    <div class="content-body thirds reveal">
+      <div class="card fire">
+        <div class="card-icon">🔥</div>
+        <div class="card-title">Niveau Débutant</div>
+        <div class="card-text">
+          10 pompes au réveil<br>
+          20 squats air<br>
+          Planche 30 secondes<br>
+          Marcher 15 min dans l'appart<br><br>
+          <strong style="color:var(--fire)">Durée : 10 min/jour</strong>
+        </div>
+      </div>
+      <div class="card sky">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">Niveau Intermédiaire</div>
+        <div class="card-text">
+          Circuit HIIT 15 min (YouTube)<br>
+          Gainage + abdos 10 min<br>
+          Yoga ou stretching 10 min<br>
+          Sauts à la corde (si possible)<br><br>
+          <strong style="color:var(--sky)">Durée : 30 min/jour</strong>
+        </div>
+      </div>
+      <div class="card lime">
+        <div class="card-icon">💪</div>
+        <div class="card-title">Niveau Avancé</div>
+        <div class="card-text">
+          Musculation au poids du corps<br>
+          Programme 5 jours/semaine<br>
+          Méditation + respiration Wim Hof<br>
+          Course (même dans le couloir)<br><br>
+          <strong style="color:var(--lime)">Durée : 45-60 min/jour</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-body reveal" style="margin-top:48px">
+      <div class="body-text">
+        <p>Tu n'as pas besoin d'une salle de sport. Des dizaines d'études montrent que <strong>20 minutes d'activité physique intense</strong> génèrent autant de BDNF (protéine de croissance neurale) qu'une session de thérapie.</p>
+        <p>La peur de l'effort physique est aussi une zone de confort. Chaque fois que tu te lèves quand tu veux rester allongé, tu entraînes non seulement ton corps — <strong>tu entraînes ta volonté.</strong></p>
+      </div>
+      <div class="highlight">
+        <strong>Règle des 2 minutes :</strong> Si tu hésites à faire ta séance, dis-toi juste "je fais 2 minutes". Le cerveau n'a pas peur de 2 minutes. Et en général, tu continues bien au-delà.
+      </div>
+    </div>
+
+    <div class="challenge-box reveal" style="margin-top:48px">
+      <div class="challenge-header">
+        <span class="challenge-badge">Défi Ch.03</span>
+        <span class="challenge-title">Le défi physique de la semaine</span>
+      </div>
+      <ul class="challenge-list">
+        <li>Jour 1 : 10 pompes dès le réveil (avant de regarder ton téléphone)</li>
+        <li>Jour 2 : 15 min de stretching guidé sur YouTube</li>
+        <li>Jour 3 : Faire une séance HIIT 20 min (gratuite en ligne)</li>
+        <li>Jour 4 : Repos actif — marcher 30 min ou danser seul chez toi</li>
+        <li>Jour 5-7 : Répéter ce qui t'a le plus challengé</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CH 4 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter alt" id="ch4">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">04</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--fire)">Corps</div>
+        <h2 class="chapter-h2">La routine anti-confort<br>du matin</h2>
+        <p class="chapter-intro">Les premières heures de ta journée définissent ton énergie pour le reste. Construis-les différemment.</p>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <table class="routine-table">
+        <thead>
+          <tr>
+            <th>Heure</th>
+            <th>Action</th>
+            <th>Pourquoi ça marche</th>
+            <th>Difficulté</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Réveil + 0s</strong></td>
+            <td>PAS de téléphone. Se lever immédiatement.</td>
+            <td>Brise le circuit dopamine du scroll matinal</td>
+            <td>🔥🔥🔥</td>
+          </tr>
+          <tr>
+            <td><strong>+5 min</strong></td>
+            <td>Douche froide (ou terminer froid 30 sec)</td>
+            <td>Active le système nerveux, boost la dopamine, réduit l'inflammation</td>
+            <td>🔥🔥🔥🔥</td>
+          </tr>
+          <tr>
+            <td><strong>+15 min</strong></td>
+            <td>5-10 min de mouvement ou respiration</td>
+            <td>Lance le métabolisme et la clarté mentale</td>
+            <td>🔥🔥</td>
+          </tr>
+          <tr>
+            <td><strong>+25 min</strong></td>
+            <td>Eau + pas de café avant 90 min</td>
+            <td>Le cortisol matinal fait son job naturellement</td>
+            <td>🔥🔥</td>
+          </tr>
+          <tr>
+            <td><strong>+30 min</strong></td>
+            <td>1 intention de la journée (écrite à la main)</td>
+            <td>Active le cortex préfrontal, direction consciente</td>
+            <td>🔥</td>
+          </tr>
+          <tr>
+            <td><strong>+45 min</strong></td>
+            <td>Travail profond 60-90 min (sans distraction)</td>
+            <td>Le cerveau est en pic de performance le matin</td>
+            <td>🔥🔥🔥</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="content-body reveal" style="margin-top:48px">
+      <div class="body-text">
+        <p>Cette routine n'est pas magique. Elle est <strong>mécanique</strong>. Les premières fois, c'est dur. Après 21 jours, c'est automatique. Et tu ne reviendras jamais en arrière.</p>
+        <p>La douche froide ? C'est peut-être la chose la plus difficile de cette liste. Et c'est exactement pourquoi elle est là. <strong>Commencer sa journée par un acte courageux programme ton cerveau pour en faire d'autres.</strong></p>
+      </div>
+      <div class="card purple">
+        <div class="card-icon">📝</div>
+        <div class="card-title">La règle d'or : Commence petit</div>
+        <div class="card-text">
+          Ne change pas tout en même temps. Commence par UNE chose.<br><br>
+          Semaine 1 : Pas de téléphone au réveil<br>
+          Semaine 2 : Ajoute le mouvement<br>
+          Semaine 3 : Ajoute la douche froide<br>
+          Semaine 4 : La routine complète
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CH 5 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter purple-tint" id="ch5">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">05</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--purple)">Mindset</div>
+        <h2 class="chapter-h2">Dépasser la peur sociale<br>sans sortir de chez toi</h2>
+        <p class="chapter-intro">La peur du jugement est la zone de confort la plus invisible — et la plus limitante. Elle se travaille depuis chez soi.</p>
+      </div>
+    </div>
+
+    <div class="content-body reveal">
+      <div class="body-text">
+        <p>La peur sociale, c'est la peur du jugement des autres. En 2026, elle se manifeste surtout en ligne : peur de poster, peur de prendre la parole en visio, peur d'envoyer un DM, peur d'exposer son travail.</p>
+        <p>La bonne nouvelle : <strong>tu peux t'entraîner à l'exposition progressivement, depuis chez toi.</strong> Comme un athlète qui s'entraîne avant la compétition.</p>
+        <p>Le principe ? L'exposition graduée. Chaque petit acte "effrayant" que tu fais réduit la charge émotionnelle de la prochaine fois. Le cerveau apprend : "Je l'ai fait. Rien de grave n'est arrivé."</p>
+      </div>
+      <div>
+        <div class="step-list">
+          <div class="step-item">
+            <div class="step-n">🌱</div>
+            <div>
+              <div class="step-content-title">Niveau 1 — Créer sans montrer</div>
+              <div class="step-content-text">Écrire, dessiner, filmer pour toi. Désensibiliser le regard intérieur.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">📤</div>
+            <div>
+              <div class="step-content-title">Niveau 2 — Partager à 1 personne</div>
+              <div class="step-content-text">Envoyer ta création à quelqu'un de confiance. Premier retour réel.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">🌐</div>
+            <div>
+              <div class="step-content-title">Niveau 3 — Publier en ligne</div>
+              <div class="step-content-text">Un post, une story, un commentaire. Exposition publique contrôlée.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">🎤</div>
+            <div>
+              <div class="step-content-title">Niveau 4 — S'exprimer en direct</div>
+              <div class="step-content-text">Live, visio, voice note, podcast. La voix face à d'autres personnes.</div>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-n">🚀</div>
+            <div>
+              <div class="step-content-title">Niveau 5 — Proposer ta valeur</div>
+              <div class="step-content-text">Pitcher un projet, proposer un service, candidater. L'action concrète.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="challenge-box reveal" style="margin-top:48px">
+      <div class="challenge-header">
+        <span class="challenge-badge">Défi Ch.05</span>
+        <span class="challenge-title">L'exposition sociale de la semaine</span>
+      </div>
+      <ul class="challenge-list">
+        <li>Envoie un message à quelqu'un que tu as pas contacté depuis longtemps</li>
+        <li>Poste quelque chose que tu as créé (texte, dessin, photo) sur une plateforme en ligne</li>
+        <li>Participe à une conversation en ligne sur un sujet qui t'intéresse</li>
+        <li>Fais un compliment sincère à quelqu'un par message — sans attendre de retour</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CH 6 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter fire-tint" id="ch6">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">06</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--lime)">Action</div>
+        <h2 class="chapter-h2">Créer des défis progressifs<br>chez soi</h2>
+        <p class="chapter-intro">La structure est la clé. Sans défi concret, ton cerveau ne sort pas de sa zone. Crée ton propre système de challenge.</p>
+      </div>
+    </div>
+
+    <div class="content-body reveal">
+      <div class="body-text">
+        <p>Un défi sans progression, c'est une montagne sans escaliers. Trop haut → abandon. Trop bas → ennui. L'objectif est de trouver <strong>le bon niveau d'inconfort</strong> : suffisamment difficile pour grandir, suffisamment accessible pour continuer.</p>
+        <p>Le système de <strong>"micro-défis empilés"</strong> fonctionne comme ceci : chaque semaine, tu t'imposes 1 nouveau défi dans 3 domaines — Corps, Esprit, Social. Petit au début. Toujours un cran au-dessus de la semaine précédente.</p>
+      </div>
+      <div class="card sky">
+        <div class="card-icon">🎯</div>
+        <div class="card-title">Template de défi hebdomadaire</div>
+        <div class="card-text">
+          <strong style="color:var(--sky)">Corps</strong> → Augmente l'intensité ou la durée de 10%<br><br>
+          <strong style="color:var(--purple)">Esprit</strong> → Apprends quelque chose de nouveau (30 min/jour)<br><br>
+          <strong style="color:var(--lime)">Social</strong> → 1 action d'exposition publique<br><br>
+          <strong style="color:var(--fire)">Créativité</strong> → Produis quelque chose, même imparfait
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:48px">
+      <table class="routine-table">
+        <thead>
+          <tr>
+            <th>Semaine</th>
+            <th>Défi Corps</th>
+            <th>Défi Mindset</th>
+            <th>Défi Social</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1</strong></td>
+            <td>10 pompes/matin</td>
+            <td>Lire 10 pages/jour</td>
+            <td>Envoyer 1 message courageux</td>
+          </tr>
+          <tr>
+            <td><strong>2</strong></td>
+            <td>20 pompes + squats</td>
+            <td>Journaling 5 min/soir</td>
+            <td>Poster 1 contenu en ligne</td>
+          </tr>
+          <tr>
+            <td><strong>3</strong></td>
+            <td>HIIT 15 min</td>
+            <td>Méditation 10 min/matin</td>
+            <td>Commenter 3 posts dans ta niche</td>
+          </tr>
+          <tr>
+            <td><strong>4</strong></td>
+            <td>Routine complète 30 min</td>
+            <td>Apprendre 1 skill 30 min/jour</td>
+            <td>Publier un projet ou une réflexion</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CH 7 ══════════════ -->
+<div class="divider"></div>
+<section class="chapter alt" id="ch7">
+  <div class="chapter-inner">
+    <div class="chapter-header reveal">
+      <div class="chapter-num-big">07</div>
+      <div class="chapter-head-content">
+        <div class="chapter-category" style="color:var(--lime)">Action</div>
+        <h2 class="chapter-h2">Le plan sur 30 jours<br>De zéro à en mouvement</h2>
+        <p class="chapter-intro">Voilà ton feuille de route complète. Semaine par semaine, pas à pas. Tout commence ici.</p>
+      </div>
+    </div>
+
+    <div class="content-body thirds reveal">
+      <div class="card lime">
+        <div class="card-icon">🌱</div>
+        <div class="card-title">Semaine 1 — Conscience</div>
+        <div class="card-text">
+          Cartographie ta zone de confort<br>
+          Identifie 3 peurs actuelles<br>
+          Installe la règle "pas de téléphone le matin"<br>
+          Commence : 10 pompes au réveil<br>
+          Journaling soir : "Qu'est-ce qui m'a mis mal à l'aise aujourd'hui ?"
+        </div>
+      </div>
+      <div class="card fire">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">Semaine 2 — Activation</div>
+        <div class="card-text">
+          Ajoute : routine physique 20 min<br>
+          Commence les douches froides (30 sec froides à la fin)<br>
+          1 défi social par jour<br>
+          Crée quelque chose sans le montrer<br>
+          Note tes victoires (même minuscules)
+        </div>
+      </div>
+      <div class="card sky">
+        <div class="card-icon">🚀</div>
+        <div class="card-title">Semaine 3 — Accélération</div>
+        <div class="card-text">
+          Intensifie la routine physique<br>
+          Partage quelque chose que tu as créé<br>
+          Lance un projet personnel (même petit)<br>
+          Commence à apprendre une compétence<br>
+          Méditation 10 min matin
+        </div>
+      </div>
+    </div>
+
+    <div class="card purple reveal" style="margin-top:2px; padding:32px;">
+      <div class="card-icon">🏆</div>
+      <div class="card-title" style="font-size:18px">Semaine 4 — Consolidation & Lancement</div>
+      <div class="card-text" style="font-size:15px; margin-top:12px; line-height:1.8">
+        La semaine 4, tu ne découvres plus — tu <strong style="color:var(--purple)">ancres</strong>. Fais le bilan : qu'est-ce qui a changé ? Qu'est-ce que tu fais maintenant que tu ne faisais pas il y a 21 jours ?<br><br>
+        Publie quelque chose de significatif. Prends un engagement public. Définit ton prochain niveau de défi pour les 30 jours suivants.<br><br>
+        <strong style="color:var(--white)">Tu ne sors pas de ta zone de confort une fois. Tu la repousses, encore et encore.</strong>
+      </div>
+    </div>
+
+    <div class="tags reveal" style="margin-top:48px">
+      <span class="tag">Discipline</span>
+      <span class="tag">Consistance</span>
+      <span class="tag">Mindset de croissance</span>
+      <span class="tag">Douche froide</span>
+      <span class="tag">Exposition sociale</span>
+      <span class="tag">Journaling</span>
+      <span class="tag">HIIT</span>
+      <span class="tag">Neuroplasticité</span>
+      <span class="tag">Habitudes atomiques</span>
+      <span class="tag">Création</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CTA FINAL ══════════════ -->
+<div class="divider"></div>
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="cta-inner">
+    <p class="section-tag reveal" style="justify-content:center; text-align:center">Le mot de la fin</p>
+    <h2 class="cta-title reveal">
+      La zone de confort<br>
+      <span style="color:var(--fire)">ne disparaît pas.</span><br>
+      <span style="color:var(--lime)">Tu grandis plus vite qu'elle.</span>
+    </h2>
+    <p class="cta-text reveal">
+      Ce n'est pas une question de courage exceptionnel. C'est une question d'entraînement quotidien. Chaque jour où tu fais une chose inconfortable depuis chez toi, tu deviens quelqu'un de différent — quelqu'un qui sait qu'il peut.
+    </p>
+    <div class="cta-buttons reveal">
+      <a href="#ch1" class="btn-primary">
+        Relire depuis le début
+        <span class="btn-arrow">↑</span>
+      </a>
+      <a href="#ch7" class="btn-outline">
+        Voir le plan 30 jours
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-brand">Zone de Confort · 2026</span>
+  <span class="footer-copy">Mindset & Corps · Pour les 13 ans et au-delà · Tous droits réservés</span>
+</footer>
+
+<!-- Pill nav -->
+<div class="pill-nav" id="pillNav">
+  <div class="pill-dot active" data-section="top"></div>
+  <div class="pill-dot" data-section="ch1"></div>
+  <div class="pill-dot" data-section="ch2"></div>
+  <div class="pill-dot" data-section="ch3"></div>
+  <div class="pill-dot" data-section="ch4"></div>
+  <div class="pill-dot" data-section="ch5"></div>
+  <div class="pill-dot" data-section="ch6"></div>
+  <div class="pill-dot" data-section="ch7"></div>
+</div>
+
+<script>
+  // Cursor
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.transform = `translate(${mx - 6}px, ${my - 6}px)`;
+  });
+  function animateRing() {
+    rx += (mx - rx - 18) * 0.12;
+    ry += (my - ry - 18) * 0.12;
+    ring.style.transform = `translate(${rx}px, ${ry}px)`;
+    requestAnimationFrame(animateRing);
+  }
+  animateRing();
+
+  // Progress
+  const bar = document.getElementById('progressBar');
+  window.addEventListener('scroll', () => {
+    const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+    bar.style.width = pct + '%';
+  });
+
+  // Reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  // Pill nav
+  const sections = ['top','ch1','ch2','ch3','ch4','ch5','ch6','ch7'];
+  const dots = document.querySelectorAll('.pill-dot');
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      document.getElementById(sections[i])?.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+  window.addEventListener('scroll', () => {
+    let current = 0;
+    sections.forEach((id, i) => {
+      const el = document.getElementById(id);
+      if (el && window.scrollY >= el.offsetTop - 200) current = i;
+    });
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+  });
+</script>
+</body>
+</html>
